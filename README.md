@@ -23,12 +23,13 @@
 
 This generates seven RESTful routes in the application.
 
-No. | HTTP Verb | URL | Controller | Action | Used for |
--- | ------------- | ------------- | ------------- | ------------- | ------------- |
-1. | GET  | /terminals | Terminal | index | display a list of all terminals  |
-2. | GET  | /terminals/new | Terminal | new | return an HTML form for creating a new terminal  |
-3. | POST | /terminals | Terminal  | create | create a new terminal  |
-4. | GET  | /terminals/1 | Terminal | show | display a specific terminal  |
-5. | GET  | /terminals/1/edit | Terminal | edit | return an HTML form for editing a terminal  |
-6. | PUT/PATCH  | /terminals/1 | Terminal | update | update a specific terminal  |
-7. | DELETE  | /terminals/1 | Terminal | destroy | delete a specific terminal  |
+
+| No. | HTTP Verb | URL | Controller | Action | Used for |
+| --- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 1. | GET  | terminals | Terminal | index | display a list of all terminals  |
+| 2. | GET  | /terminals/new | Terminal | new | return an HTML form for creating a new terminal  |
+| 3. | POST | /terminals | Terminal  | create | create a new terminal  |
+| 4. | GET  | /terminals/1 | Terminal | show | display a specific terminal  |
+| 5. | GET  | /terminals/1/edit | Terminal | edit | return an HTML form for editing a terminal  |
+| 6. | PUT/PATCH  | /terminals/1 | Terminal | update | update a specific terminal  |
+| 7. | DELETE  | /terminals/1 | Terminal | destroy | delete a specific terminal  |
