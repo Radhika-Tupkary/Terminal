@@ -2,12 +2,13 @@
 
 * This application uses Ruby version : 2.5.0, Rails version : 5.1.6, and Database: MySQL : 5.7.21. It demonstrates basic CRUD operations on a resource named 'Terminal'.
 
-* Steps to get the application up and running
+* Steps to get the application up and running (This works on MacOs 10.13 High Sierra)
 1. Clone this repo
 2. cd into this repo
-3. bundle install  (installs the dependencies)
-4. rake db:seed (optional - seeds the database with predefined values from file /db/seeds.rb)
-5. rails server (This will start your WEBrick web server at port 3000. visit http://127.0.0.1:3000)
+3. bundle install  (installs all dependencies from Gemfile)
+4. rake db:migrate RAILS_ENV=development
+5. rake db:seed (optional - seeds the database with predefined values from file /db/seeds.rb)
+6. rails server (This will start your WEBrick web server at port 3000. visit http://127.0.0.1:3000)
 
 * How to run the test suite
 
