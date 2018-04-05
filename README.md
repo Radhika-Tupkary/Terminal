@@ -26,7 +26,7 @@ This generates seven RESTful routes in the application.
 
 | No. | HTTP Verb | URL | Controller | Action | Used for |
 | --- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1. | GET  | terminals | Terminal | index | display a list of all terminals  |
+| 1. | GET  | /terminals | Terminal | index | display a list of all terminals  |
 | 2. | GET  | /terminals/new | Terminal | new | return an HTML form for creating a new terminal  |
 | 3. | POST | /terminals | Terminal  | create | create a new terminal  |
 | 4. | GET  | /terminals/1 | Terminal | show | display a specific terminal  |
