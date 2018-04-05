@@ -1,11 +1,14 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyString
-  attrs: MyString
+  name: termOne
+  description: nice
+  attrs:
+    domestic:yes
 
 two:
-  name: MyString
-  description: MyString
-  attrs: MyString
+  name: termTwo
+  description: wide
+  attrs:
+    international:true
+    crowded:no
