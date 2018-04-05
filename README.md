@@ -16,7 +16,7 @@
 * Application design, assumptions and constraints
 1. Terminal database schema is simple - and has only one table with the following columns: id, name, description, and attrs (attributes). Name and attrs are required parameters, and name has constraint of minimum length 2 and maximum length 15.
 
-2. /config/databse.yml file contains the database config params.
+2. By default, every Rails application and hence this one too has three environments: development, test, and production. The database for each one of them is configured in config/database.yml.
 
 3. Each method defined in the Terminal controller has a corresponding erb file, with the same name as the method, to display the data that the method is collecting. (app/views/terminals)
 
